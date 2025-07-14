@@ -14,6 +14,7 @@ M. Forouzandehmehr, M. Paci, J. Hyttinen, and J. T. Koivumäki, “Mechanisms of
 * `params_and_states_7_EAD_models.m`: Parameters to generate the SET version of the model
 * `rho.m`: rho function (Eq. 15 in the manuscript)
 * `BiomarkerCalc.m`: Calls functions to calculate AP, CaT, and Contractile biomarkers (Table S1 in the manuscript)
+* `run_hiMCES.m`: This commit will add function to run hiMCES model. It has similar functionality to the MasterCompute_hiMCES, except you can override any single value from the function arguments, without overriding implementation of the function.
 
 
 
